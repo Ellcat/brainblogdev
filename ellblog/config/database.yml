@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: ellblog_development
   pool: 5
-  username: postgres
+  username: postgres 
   password: password
   host: localhost
 

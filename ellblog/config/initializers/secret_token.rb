@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Ellblog::Application.config.secret_key_base = '54afe20a2a91ac9f3c0eeb61b39e89ca45a2fc800eec9af790b4431345c5b667c21595b3594749742f2f40f8a82b498f0ecf548e1cfd767e23ddb73da5124357'
+Ellblog::Application.config.secret_key_base = '6239aadf239a29021bc5b4224eab5d9dfbe1d42bfdab342bdcbd985d866238de82eca722b6a263f3939d2f30f501c617959b31dba23b2f1e9b342f57c86fee55'
