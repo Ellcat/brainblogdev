@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+
+  devise_for :users
+  root 'posts#index'
+  
+  devise_for :admins
+# figure out how this works changed from get 'admin/home' links other models that have been created
+
+  get 'admin' => 'admin#home'
+
   resources :comments
 
   resources :posts
